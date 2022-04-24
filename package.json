@@ -4,15 +4,21 @@
   "description": "",
   "main": "firstfile.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testmocha": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^100.0.0",
     "fs-extra": "^10.0.0",
+    "selenium-webdriver": "^4.1.1",
+    "webdriver-manager": "^12.1.8",
     "yargs": "^17.3.1"
   },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "chai": "^4.3.6",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2"
   }
 }
